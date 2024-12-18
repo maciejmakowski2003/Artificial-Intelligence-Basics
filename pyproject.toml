@@ -8,6 +8,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11.0"
+
 imbalanced-learn = "^0.12.4"
 jupyterlab = "^4.2.5"
 jupyterlab-execute-time = "^3.2.0"
@@ -31,8 +32,6 @@ iprogress = "^0.4"
 tensorboard = "^2.18.0"
 tqdm = "^4.67.1"
 protobuf = "3.20.0"
-numba = "0.60.0"
-
 
 [build-system]
 requires = ["poetry-core"]
